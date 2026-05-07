@@ -10,7 +10,7 @@ df = pd.read_csv("Pericyte_to_neuron.csv",index_col=0,header=None)
 data_value = df.values.astype(float)
 data_value = np.log1p(data_value)
 
-TF_df = pd.read_csv("TF_human_unique.csv", index_col=0, header=None)
+TF_df = pd.read_csv("TF_human.csv", index_col=0, header=None)
 
 
 data_gene_list = df.index
